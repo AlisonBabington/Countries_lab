@@ -1,0 +1,11 @@
+body {
+  background-color: #E9EBE9;
+  padding: 2em;
+  font-family: 'Noto Serif KR', sans-serif;
+}
+
+
+.flagImage {
+  width: 300px;
+  height: auto;
+}
