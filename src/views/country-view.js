@@ -18,6 +18,7 @@ CountryView.prototype.render = function (country) {
 
   const image = document.createElement('img');
   image.src = country.flag;
+  image.alt = `${country.name} flag`;
   image.classList.add('flagImage');
   this.container.appendChild(image);
 
